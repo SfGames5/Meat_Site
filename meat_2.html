@@ -10,11 +10,11 @@
 <div class="title"><p style="font-size: 34px;">- Название Товара -</p>
 <hr>
 
-
+<div class="g">
 <div style=" position: relative; width: 120%; height: 10px;">
 </div>
 </div>
-<div style=" linear-gradient:(to top, #8c6b40, transparent);  background-color: #ab885b;  margin: auto auto auto -10px; width: 106%; height: 190%"  >
+
 <div class="stock">
 <img src="sausage038.png" id="item">
 <p style="font-size: 120%;" class="title">- Колбаса копчёная -<br></p>
@@ -23,6 +23,7 @@
 </div>
 <p style="font-size: 150%; " class="title">- Описание Товара -</p>
 <p style="font-size: 120%; " class="title"> Состав</p>
+</div>
 <style>
 hr {
     display: block;
@@ -31,20 +32,20 @@ hr {
     background-color:  white;
 	box-shadow: 4px 4px 5px #8b0000 ;
 }
-body {
-margin-top: 0px;
-margin-left: 0px;
-width: 100%;
-backdrop-filter: blur(10px);
+body{
+
+   margin: 0px;
+  height: 108%;
+   width: 100%;
+backdrop-filter: brightness(40%);
 animation-name: arm;
-text-align: center;
-position: absolute;
+background-attachment: fixed;
+background-size: cover;
  background-image: url('me.jpg');
 background-repeat: no-repeat;
 background-color: #363737;
-background-size: 100% auto;
-background-attachment: fixed;
 background-size: cover;
+border: 4px dotted blue
 overflow: overlay;
 overflow-x: hidden;
 opacity: 0;
@@ -60,7 +61,6 @@ to {opacity: 100%;}
 {
 opacity: 1;
 color: white;
-position: relative;
 text-align: center;
 width: 100%;
 height: auto;
@@ -70,27 +70,19 @@ font-family: Trebuchet MS;
 }
 .stock {
 opacity: 1;
-padding-bottom: 5%;
-padding-top: 5%;
+width: 350px;
+height: 350px;
+border: 0px dotted blue;
 display: inline-block;
-border: 4px dotted blue
-margin: 200px;
-position: relative;
-width: auto;
-height: 300px;
-
+text-align: center;
 }
 #item
 {
 opacity: 1;
-margin: auto;
-display: inherit;
-position: relative;
-min-width: 200px;
-min-height: 250px;
+min-width: 100px;
+min-height: 150px;
 width: 90%;
 height: 90%;
-
 }
 .logo {
 width: 20%;
@@ -98,15 +90,21 @@ height: 100%;
 margin: 10px 40% auto 40%;
 
 }
+.g
+{
+text-align: center;
+width:100%;
+height: 100%;
+border: 0px dotted blue;
 
+}
 .info
 {
 color: #704814;
-text-shadow: 1px 1px 1px #4f320d ;
-text-align: center;
+text-shadow: 0px 0px 0px #4f320d ;
 width: 100%;
 height: auto;
-margin: 10px auto auto auto;
+
 white-space: nowrap;
 font-family: Trebuchet MS;
 }
@@ -115,6 +113,6 @@ font-family: Trebuchet MS;
 </body>
 <div style=" position: relative; width: 120%; height: 300px;">
 </div>
-<div style="background: linear-gradient(to top, #8c6b40, transparent); margin: auto auto auto -10px; width: 106%; padding-top: 200px;  position: absolute;  height: 100px; background-color: #ab885b; " ><p style="font-size: 110%;" class="info">Контактная информация<br></p>
+
 <p style="font-size: 110%;" class="info">Контактная информация<br></p></div>
 </html>
